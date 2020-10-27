@@ -73,7 +73,7 @@ intervals %>% ggplot(aes(interval, Average)) +
   theme_bw()
 ```
 
-![](PA1_template_files/figure-html/-%20Time series-1.png)<!-- -->
+![](PA1_template_files/figure-html/-%20Time%20series-1.png)<!-- -->
 
 Finally, the five minute interval of the day with the maximum number of steps, on average, is found using the command:
 
