@@ -40,7 +40,7 @@ Steps %>% ggplot(aes(Total_Steps)) +
   ylim(c(0,20))
 ```
 
-![Histogram 1](PA1_template_files/figure-html/- Histogram-1.png)
+![Histogram 1](PA1_template_files/figure-html/-%20Histogram-1.png)
 
 Finally, the mean and the median of the total step number are calculated by the commands:
 
