@@ -73,7 +73,7 @@ intervals %>% ggplot(aes(interval, Average)) +
   theme_bw()
 ```
 
-![](PA1_template_files/figure-html/- Time series-1.png)<!-- -->
+![](PA1_template_files/figure-html/-%20Time series-1.png)<!-- -->
 
 Finally, the five minute interval of the day with the maximum number of steps, on average, is found using the command:
 
@@ -122,7 +122,7 @@ new_steps %>% ggplot(aes(Total_Steps)) +
   theme_bw()
 ```
 
-![](PA1_template_files/figure-html/- New Histogram-1.png)<!-- -->
+![](PA1_template_files/figure-html/-%20New%20Histogram-1.png)<!-- -->
 
 
 ```r
@@ -161,7 +161,7 @@ data2 %>% group_by(interval, daytype) %>%
   theme_bw()
 ```
 
-![](PA1_template_files/figure-html/- Time series daytype-1.png)<!-- -->
+![](PA1_template_files/figure-html/-%20Time%20series%20daytype-1.png)<!-- -->
 
 In this case, it is possible to see some differences even though the behavior is almost random. In the weekends, the mean value across all the day seems higher than the mean value in the weekdays. Also, in the weekdays the activity seems to start earlier in the morning and to finish earlier in the afternoon/evening.
 
